@@ -8,7 +8,7 @@ public:
             return 9;
         }
         else{
-            return num%9;
+            return (num%9);
         }
     }
 };
