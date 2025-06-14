@@ -16,7 +16,7 @@ class Solution {
             int d=gcd(current.val,current.next.val);
             ListNode newnode=new ListNode(d);
             newnode.next=current.next;
-            current.next=newnode;
+            current.next= newnode;
             current=newnode.next;
         }
         return head;
